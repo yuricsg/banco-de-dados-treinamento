@@ -1,0 +1,27 @@
+-- YURI FRANÇA (01594612)
+CREATE TABLE pessoas(
+	Nome VARCHAR(20),
+    Cpf VARCHAR(15),
+    Ano VARCHAR(6),
+    Mes VARCHAR(6)
+    
+);
+
+SELECT * FROM pessoas
+
+INSERT INTO pessoas(Nome, Cpf, Ano, Mes)
+VALUES
+('RAFAEL',09898765431,2001,01),
+('RAFAEL',76523456487,1902,02),
+('ALEXANDRE',13498077754,2006,06),
+('YURI',23698065429,2004,05)
+
+SELECT nome FROM pessoas
+
+SELECT * FROM pessoas
+
+SELECT DISTINCT nome FROM pessoas
+
+SELECT * FROM pessoas
+
+SELECT Nome AS pessoas, Cpf, Ano, Mes FROM pessoas
